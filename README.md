@@ -14,3 +14,4 @@ CSS Explore
 12. Paralax + Javascript
 14. Gradient Border
 15. Sliding Menu + Javascript
+16. SliderJS (library)
