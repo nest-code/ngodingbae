@@ -1,33 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="assets/style.css">
+  <meta charset="utf-8">
+  <title>CSS Explore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+ <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(assets/img/1.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/2.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/3.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/5.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/6.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/7.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/8.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/9.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/10.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/12.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/14.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/15.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/16.JPG)"></div>
+      <div class="swiper-slide" style="background-image:url(assets/img/17.JPG)"></div>
 
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="#">Beranda</a>
-    <a href="#">Ngodingbae</a>
-    <a href="#">Tentang</a>
+    </div>
+    <div class="swiper-pagination"></div>
   </div>
-</div>
-
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
-
-
-<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
-     
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
 </body>
 </html>
