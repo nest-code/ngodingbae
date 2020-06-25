@@ -15,3 +15,4 @@ CSS Explore
 14. Gradient Border
 15. Sliding Menu + Javascript
 16. SliderJS (library)
+17. Responsive Navbar + Font Awersome icon + JQuery
