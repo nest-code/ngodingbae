@@ -1,4 +1,4 @@
-CSS Explore
+CSS Explore https://nest-code.github.io/ngodingbae/
 
 1. Analog Clock Neumorphins + Javascript
 2. Dark Mode (button)
@@ -16,3 +16,4 @@ CSS Explore
 15. Sliding Menu + Javascript
 16. SliderJS (library)
 17. Responsive Navbar + Font Awersome icon + JQuery
+18. Video Text 
