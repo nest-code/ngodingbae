@@ -17,3 +17,4 @@ CSS Explore https://nest-code.github.io/ngodingbae/
 16. SliderJS (library)
 17. Responsive Navbar + Font Awersome icon + JQuery
 18. Video Text 
+19. Black-White (JQuery)
