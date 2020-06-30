@@ -4,7 +4,7 @@ CSS Explore https://nest-code.github.io/ngodingbae/
 2. Dark Mode (button)
 3. Button Animation
 4. Navbar + Javascript
-5. Animated Car
+5. Animated Car (css)
 6. Text Animation
 7. Navbar Smoth (Flex)
 8. Water (Animation)
@@ -17,3 +17,4 @@ CSS Explore https://nest-code.github.io/ngodingbae/
 16. SliderJS (library)
 17. Responsive Navbar + Font Awersome icon + JQuery
 18. Video Text 
+19. Black-White (JQuery)
